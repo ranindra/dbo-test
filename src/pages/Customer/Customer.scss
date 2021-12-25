@@ -1,0 +1,19 @@
+.btn-detail {
+    button {
+        cursor: pointer;
+        font-size: 9px;
+        border-radius: 15px;
+        margin-right: 10px;
+        padding: 5px 7px;
+        text-align: center;
+        background: rgb(252, 54, 54);
+        border: none !important;
+        &:hover {
+            background: rgb(252, 54, 54);
+            opacity: 0.5;
+        }
+        &:active,&:focus {
+            background: rgb(252, 31, 31);
+        }
+    }
+}
